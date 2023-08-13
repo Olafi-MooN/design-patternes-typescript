@@ -1,16 +1,17 @@
 {
-  "name": "study",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "git:push": "git add . && git commit -m \"update\" && git push"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.1.6"
-  }
+	"name": "study",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"git:push": "npx prettier . --write && git add . && git commit -m \"update\" && git push"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "3.0.1",
+		"typescript": "^5.1.6"
+	}
 }
