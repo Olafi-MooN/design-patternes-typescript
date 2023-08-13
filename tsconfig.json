@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ES2023",
+		"module": "CommonJS",
+		"lib": ["DOM", "ESNext", "ES2023"],
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"removeComments": true,
+		"noEmitOnError": true,
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	}
+}
